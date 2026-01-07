@@ -1,1 +1,5 @@
-These tar files contain the necessary tabulated potential files to describe a coarse-grained model for sodium triflate dissolved in glyme solvents.
+These tar files contain the necessary tabulated potential files to describe a coarse-grained (CG) model for sodium triflate dissolved in glyme solvents. 
+Each tarball contains an example .lammps.data file for carrying out a CG simulation, an example .in file that shows you which tabulated files go with which CG partile interactions, and the set of 6 unique tabulated potentials to describe glyme-glyme, glyme-sodium, glyme-triflate, sodium-sodium, triflate-triflate, and sodium-triflate interactions.
+Model 1.0 contains tabulated potentials derived from all atom radial distribution functions on diglyme with 2.0M sodium triflate with only the short-ranged tabulated interactions.
+Model 2.0 contains tabulated potentials derived from all-atom radial distributions functions with added long-ranged electrostatics between the sodium and triflate.  This model was also trained on diglyme with 2.0M sodium triflate.
+Model 3.0 is the same as Model 2.0, but trained on diglyme with 1.0M sodium triflate instead.
